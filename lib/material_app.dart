@@ -20,6 +20,7 @@ class MiniApp extends StatelessWidget {
         ],
         child: MaterialApp(
           title: "Mini App",
+          debugShowCheckedModeBanner: false,
           home: const HomeScreen()
         )
     );
